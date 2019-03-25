@@ -1,3 +1,8 @@
+# Why Forked?
+
+It's because to fix a technical issue related to drag and drop. In the [SuffolkCMS project](https://github.com/sosolimited/SuffolkCMS), this Sortable.js library was conflicting the drag and drop feature. The only fix we found was to comment out `preventDefault()` call in the library code, so we forked and made changes.
+
+
 # Sortable
 Sortable is a JavaScript library for reorderable drag-and-drop lists.
 
