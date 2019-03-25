@@ -17,12 +17,13 @@
 		"prepublish": "gulp build"
 	},
 	"maintainers": [
+		"Taka Iwai <taka@sosolimited.com>",
 		"Konstantin Lebedev <ibnRubaXa@gmail.com>",
 		"Owen Mills <owen23355@gmail.com>"
 	],
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/SortableJS/Sortable.git"
+		"url": "https://github.com/sosolimited/Sortable"
 	},
 	"files": [
 		"Sortable.js",
