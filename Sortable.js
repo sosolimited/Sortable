@@ -1237,9 +1237,10 @@
 			}
 
 
-			if (evt.preventDefault !== void 0) {
-				evt.cancelable && evt.preventDefault();
-			}
+			// Commented out to avoid the D&D issue
+			// if (evt.preventDefault !== void 0) {
+			// 	evt.cancelable && evt.preventDefault();
+			// }
 
 
 			moved = true;
@@ -1832,7 +1833,8 @@
 		if (evt.dataTransfer) {
 			evt.dataTransfer.dropEffect = 'move';
 		}
-		evt.cancelable && evt.preventDefault();
+		// Commented out to avoid the D&D issue
+		// evt.cancelable && evt.preventDefault();
 	}
 
 
